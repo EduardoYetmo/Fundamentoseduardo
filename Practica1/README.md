@@ -10,7 +10,4 @@ ___
 
 2. Nos direccionamos al directorio Fundamentoseduardo donde se creara un directorio nuevo con el nombre Practica1.
 
-
-
-![GitHub Logo](C:/Users/eduar/desktop/Fundamentoseduardo/Practica1/git.jpg
-)
+![GitHub Logo](C:/Users/eduar/desktop/git.jpg)
