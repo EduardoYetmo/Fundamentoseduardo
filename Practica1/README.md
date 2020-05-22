@@ -10,6 +10,4 @@ ___
 
 2. Nos direccionamos al directorio Fundamentoseduardo donde se creara un directorio nuevo con el nombre Practica1.
 
-
-![GitHub Logo](http://www.pablo-lacasta-sanchis.com/images/otros/git.png)
-
+![git](https://i.imgur.com/lgxzVLk.png)
