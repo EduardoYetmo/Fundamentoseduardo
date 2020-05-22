@@ -11,4 +11,6 @@ ___
 2. Nos direccionamos al directorio Fundamentoseduardo donde se creara un directorio nuevo con el nombre Practica1.
 
 
-![GitHub Logo](https://miro.medium.com/max/325/0*tTvqxZBtyiDw3vVw.png)
+
+![GitHub Logo](C:/Users/eduar/desktop/Fundamentoseduardo/Practica1/git.jpg
+)
