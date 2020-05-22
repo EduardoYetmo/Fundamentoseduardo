@@ -7,4 +7,9 @@
 
 #### Desarrollo:
 ##### GradosGF
-1. Primero se abrio el programa Git Bash
+1. Primero se abrio el programa Git Bash y nos ubicamos en el escritorio donde se creara un directorio principal donde se guardaran todas las practicas que se realicen durante el trimestre llamado Fundamentoseduardo.
+
+2. Nos direccionamos al directorio Fundamentoseduardo donde se creara un directorio nuevo con el nombre Practica1.
+
+[Google](http://google.com/)
+
