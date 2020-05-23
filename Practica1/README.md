@@ -14,22 +14,31 @@ ___
 ```$ cd /Desktop/Fundamentoseduardo/Practica1/```
 
 2. Se creara un directorio principal donde se guardaran todas las practicas que se realicen durante el trimestre llamado Fundamentoseduardo.
+
 ```$ mkdir Fundamentoseduardo```
 
 ![Carpeta](https://i.imgur.com/XnPgK6C.png)
 
 3. Se ubicara en el directorio Fundamentoseduardoy se creara otro directorio llamado Practica1.
+
 ``` $ cd Fundamentoseduardo```
+
 ```$ mkdir Practica1```
+
 ![Practica](https://i.imgur.com/8RaV3wh.png)
 
 4. Nos ubicaremos en el directorio Practica1 donde se creara un programa Java llamado GradosCF.java en el que haremos un codigo que transforme los grados °C a °F.
+
 ```$ cd Practica1```
+
 ```$ touch Grados.java```
 
 5. Se abrira el editor de codigo Visual Studio Code con el siguiente comando:
+
 ```$ code . &``` 
+
 ![code](https://i.imgur.com/r3VxeY6.png) 
+
 y se hará el codigo de conversión de grados.
 ```
 public class GradosCF{
@@ -44,13 +53,14 @@ public static void main(String[] args){
 }
 }
 ```
-6. Se compilara el programa java en el shell con el siguiente comando:
-``` $ javac GradosCF.java``` y se ejecutara el programa en el shell:  ```java GradosCF```.
+6. Se compilara el programa java en el shell con el siguiente comando: ``` $ javac GradosCF.java``` y se ejecutara el programa en el shell:  ```java GradosCF```.
 .
 7. Una vez que se haya ejecutado el programa nos dirijiremos a nuestra cuenta de GitHub donde crearemos un nuevo repositorio con el nombre de nuestro directorio principal que es Fundamentoseduardo.
+
 ![Repositorio](https://i.imgur.com/S4BqCkc.png "Damos clic en Create repository")
 
 8. Una vez creado configuramos el local de git con nuestros datos de usuario:
+
 ```
 $ git config --global user.name "EduardoYetmo"
 $ git config --global user.email "eduardo.yetmo@gmail.com"
@@ -67,4 +77,5 @@ $ git commit -m "Primer Commit"
 $ git remote add origin https://github.com/EduardoYetmo/FundamentosEduardo.git
 $ git push -u origin master
 ```
+
 9. Una vez terminado el codigo podremos actualizar el GitHub y apareceran los archivos antes creados.
