@@ -14,21 +14,27 @@ ___
 ![git](https://i.imgur.com/1YRSmMm.png)
 
 ```
-(cd /Desktop/Fundamentoseduardo/Practica1/)
+$ cd /Desktop/Fundamentoseduardo/Practica1/
 ```
 
 2. Se creara un directorio principal donde se guardaran todas las practicas que se realicen durante el trimestre llamado Fundamentoseduardo.
 ```
-mkdir Fundamentoseduardo
+$ mkdir Fundamentoseduardo
 ```
 
 ![Carpeta](https://i.imgur.com/XnPgK6C.png)
 
+3. Se ubicara en el directorio Fundamentoseduardoy se creara otro directorio llamado Practica1.
+```
+$ cd Fundamentoseduardo
+$ mkdir Practica1
+```
+![Practica](https://i.imgur.com/8RaV3wh.png)
 
 
 
-2. Nos direccionamos al directorio Fundamentoseduardo donde se creara un directorio nuevo con el nombre Practica1.
-
-
-
-3. Una vez ubicados en el directorio Practica1 crearemos un archivo un programa en Java 
+4. Nos ubicaremos en el directorio Practica1 donde se creara un programa Java llamado GradosCF.java en el que haremos un codigo que transforme los grados °C a °F.
+```
+$ cd Practica1
+$ touch Grados.java
+```
