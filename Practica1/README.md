@@ -89,12 +89,12 @@ public static void main(String[] args){
 
 **Nota: al actualizar alguno de los datos que este en el directorio Fundamentoseduardose tiene que aplicar los siguientes comandos para actualizar tambien el GitHub**
 
-    ``` 
+     
     $ git status
     $ git add .
     $ git commit -m "Se agrego el README de P1"
     $ git push
-    ```
+    
 ---
 #### Salario Día por Hora
 
