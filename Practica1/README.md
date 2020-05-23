@@ -8,6 +8,9 @@ ___
 #### Desarrollo:
 ##### GradosGF
 1. Primero se abre el programa Git Bash y nos ubicamos en el escritorio con el comando: 
+
+
+
 ![git](https://i.imgur.com/1YRSmMm.png)
 
 ```
