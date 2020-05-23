@@ -6,6 +6,6 @@ public class GradosCF{
 
     F = C * 9/5 + 32;
 
-    System.out.println(F);
+    System.out.println(F+" °F");
 }
 }
