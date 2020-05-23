@@ -66,25 +66,70 @@ public static void main(String[] args){
 
 8. Una vez creado configuramos el local de git con nuestros datos de usuario del GitHub:
 
-```
-$ git config --global user.name "EduardoYetmo"
-$ git config --global user.email eduardo.yetmo@gmail.com
-```
+    ```
+    $ git config --global user.name "EduardoYetmo"
+    $ git config --global user.email eduardo.yetmo@gmail.com
+    ```
 
-9.Iniciamos la configuración del repositorio local asegurandonos estar dentro del directorio Fundamentoseduardo.
+9. Iniciamos la configuración del repositorio local asegurandonos estar dentro del directorio Fundamentoseduardo.
 
-```
-$ echo "# FundamentosEduardo" >> README.md       
-$ git init
-$ echo "*.class" >> .gitignore
-$ git add .
-$ git commit -m "Primer Commit"
-$ git remote add origin https://github.com/EduardoYetmo/FundamentosEduardo.git
-$ git push -u origin master
-```
+    ```
+    $ echo "# FundamentosEduardo" >> README.md       
+    $ git init
+    $ echo "*.class" >> .gitignore
+    $ git add .
+    $ git commit -m "Primer Commit"
+    $ git remote add origin https://github.com/EduardoYetmo/FundamentosEduardo.git
+    $ git push -u origin master
+    ```
 
 10. Una vez terminado los comandos podremos acualizar la pagina del GitHub y apareceran todos los archivos que se encuentran en Fundamentoseduardo.
 
-![info](https://i.imgur.com/VvVZ9SV.png)
+    ![info](https://i.imgur.com/VvVZ9SV.png)
 
+**Nota: al actualizar alguno de los datos que este en el directorio Fundamentoseduardose tiene que aplicar los siguientes comandos para actualizar tambien el GitHub**
 
+    ``` 
+    $ git status
+    $ git add .
+    $ git commit -m "Se agrego el README de P1"
+    $ git push
+    ```
+---
+####Salario Día por Hora
+
+1. Se hará un programa que obtenga el salario de un trabajador, según el número de horas que haya trabajado.
+
+2. Nos ubicaremos en el directorio Fundamentoseduardo/Practica1:
+
+    ```cd /desktop/Fundamentoseduardo/Practica1/```
+
+3. Crearemos un programa java llamado SalarioDH.java donde harémos un código que nos permita hacer el enunciado abriendo el editor de codigo.
+
+    ```
+    $ touch SalarioDH.java
+    $ code . &
+    ```
+
+4. Crearemos el codigo con las caracteristicas correspondientes:
+
+   ```
+   public class SalarioDH{
+    public static void main (final String[] args){
+
+        int Sueldoxhr=30;
+        int Hrxdia=8;
+        int dias=15;
+        int Salario;
+
+        Salario = Sueldoxhr * Hrxdia * dias;
+
+        System.out.println("El salario que gana un trabajador por quincena es:");
+        System.out.println("$"+Salario);
+    }
+    }
+    ```
+
+5. Se compilara el programa java en el shell con el siguiente comando: ```$ java SalarioHD.java```y se ejecutara el programa en el shell: ```java SalarioHD``` con los datos configurados en el programa nos debe de dar un resultado de 140 °F.
+
+       
