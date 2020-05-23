@@ -143,6 +143,10 @@ Y nos sirve para copiar o clonar el repositorio qu esta almacenado en el GitHub 
 - **Explique para qu´e sirve y como se usa el comando ”git pull”**
 R= 
 
+- **9. ¿Que pasa si está colaborando en un proyecto con otra persona, ambos clonan el
+repositorio de github y ambos actualizan el mismo archivo, su colaborador hace un
+push y le dice a usted que haga un pull?**
+R=
 
 ---
 ## Resultados
