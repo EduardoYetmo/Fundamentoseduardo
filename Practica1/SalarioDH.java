@@ -8,8 +8,9 @@ public class SalarioDH{
 
         Salario = Sueldoxhr * Hrxdia * dias;
 
+        System.out.println("El salario por hora es de $ 30.00");
         System.out.println("El salario que gana un trabajador por quincena es:");
-        System.out.println("$"+Salario);
+        System.out.println("$ "+Salario+".00");
 
 
 }

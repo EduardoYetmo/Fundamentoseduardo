@@ -8,63 +8,69 @@
 ## Desarrollo:
 #### GradosCF
 
-1. Primero se abre el programa Git Bash (Shell), al iniciar nos manda al directorio inicial de sistema. Escribiremos el siguiente comando para que nos redireccione al Escritorio:
+1. Primero se abre el programa Git Bash (Shell) buscando el icono como se muestra, al iniciar nos abre una consola donde nos muestra Escribiremos el siguiente comando para que nos redireccione al Escritorio:
 
     ![git](https://i.imgur.com/D8XdjQK.png)
 
     ```$ cd Desktop```
 
-###### **Nota: En los codigos escritos en el desarrollo se agregara el simbolo "$" no es necesario ponerlo ya que el shell lo pone automaticamente**
+###### **Nota: En los codigos escritos en el "Desarrollo" se agregara el simbolo "$" no es necesario ponerlo en la consola, ya que el shell lo pone automaticamente**
 
-2. Una vez ubicandonos en el Escritorio crearemos un nuevo directorio llamado Fundamentoseduardo que nos servira para guardar todas las practicas que se realizaran en el trimestre. Y lo crearemos con el siguiente comando:
+2. Una vez ubicandonos en el "Escritorio" crearemos un nuevo directorio llamado Fundamentoseduardo que nos servira para guardar todas las practicas que se realizaran en el trimestre. Y lo crearemos con el siguiente comando:
 
     ```$ mkdir Fundamentoseduardo```
 
     ![Carpeta](https://i.imgur.com/XnPgK6C.png)
 
-3. Una vez creado el directorio principal nos ubicaremos en el para poder trabajar y ya ubicandonos ahí crearemos un nuevo directorio con el nombre de Practica1.
+3. Una vez creado el directorio principal (Fundamentoseduardo) nos ubicaremos en el para poder trabajar y ya ubicandonos ahí crearemos un nuevo directorio con el nombre de Practica1 donde se desarrollara la mayor parte de la practica.
 
     ``` $ cd Fundamentoseduardo```
-
+    
     ```$ mkdir Practica1```
 
     ![Practica](https://i.imgur.com/8RaV3wh.png)
 
-4. Nos direccionaremos al directorio de Practica1 donde crearemos un programa java llamado GradosCF.java en el que haremos un codigo que transforme los grados °C a °F.
+4. Nos direccionaremos al directorio de Practica1 donde crearemos un programa java llamado GradosCF.java en el que haremos un codigo que transforme los grados °C a grados °F.
 
     ```$ cd Practica1```
 
     ```$ touch GradosCF.java```
-
-5. Se abrira el editor de codigo Visual Studio Code con el siguiente comando:
+5. Ya creado el archivo se abrira el editor de codigo Visual Studio Code con el siguiente comando:
 
     ```$ code . &```
 
     ![code](https://i.imgur.com/r3VxeY6.png) 
 
-y se hará el código de conversión de grados.
+   y se hará el código de conversión de grados.
 
 ```
 public class GradosCF{
-public static void main(String[] args){
+    public static void main(String[] args){
 
     int C=60;
     int F;
 
     F = C * 9/5 + 32;
 
+    System.out.println("La conversion de 60 °C a grados °F es:");
     System.out.println(F + " °F");
 }
 }
 ```
 
-6. Se compilara el programa java en el shell con el siguiente comando: ```$ java GradosCF.java```y se ejecutara el programa en el shell: ```java GradosCF``` con los datos configurados en el programa nos debe de dar un resultado de 140 °F.
+6. Se guardara el código con la combinacion de teclas **"Ctrl + s"** y regresaremos a la consola para compilar el programa java con el siguiente comando: ```$ java GradosCF.java```y se ejecutara el programa en el shell: ```java GradosCF``` con los datos configurados en el programa nos debe de dar un resultado de **140 °F**.
 
-7. Una vez que se haya ejecutado el programa nos dirijimos a nuestra cuenta de GitHub donde crearemos un nuevo repositorio con el nombre de nuestro directorio principal que es Fundamentoseduardo.
+    ![Conversion](https://i.imgur.com/rDz4mj7.png)
+
+7. Una vez que se haya ejecutado el programa nos dirijimos a nuestra cuenta de GitHub:
+
+    ![git](https://i.imgur.com/oYvPf9p.png)
+
+    donde crearemos un nuevo repositorio colocando en **Repository name** el nombre de Fundamentoseduardo, seleccionar la opciopn **Private** y por último dar clic en **Create repository**.
 
 ![Repositorio](https://i.imgur.com/S4BqCkc.png "Damos clic en Create repository")
 
-8. Una vez creado configuramos el local de git con nuestros datos de usuario del GitHub:
+8. Una vez creado el repositorio nos regresamos a la consola git bash y configuramos el local de git con nuestros datos de usuario del GitHub:
 
     ```
     $ git config --global user.name "EduardoYetmo"
@@ -72,7 +78,8 @@ public static void main(String[] args){
     ```
 
 9. Iniciamos la configuración del repositorio local asegurandonos estar dentro del directorio Fundamentoseduardo.
-
+![desktop](https://i.imgur.com/OpT6OJF.png)
+estando una vez dentro escribiremos los siguiente comandos:
     ```
     $ echo "# FundamentosEduardo" >> README.md       
     $ git init
@@ -83,7 +90,7 @@ public static void main(String[] args){
     $ git push -u origin master
     ```
 
-10. Una vez terminado los comandos podremos acualizar la pagina del GitHub y apareceran todos los archivos que se encuentran en Fundamentoseduardo.
+10. Una vez terminado los comandos podremos acualizar la pagina del GitHub y apareceran todos los archivos que se encuentran en el directorio Fundamentoseduardo.
 
     ![info](https://i.imgur.com/VvVZ9SV.png)
 
@@ -102,9 +109,9 @@ public static void main(String[] args){
 
 2. Nos ubicaremos en el directorio Fundamentoseduardo/Practica1:
 
-    ```cd /desktop/Fundamentoseduardo/Practica1/```
+    ```$ cd /desktop/Fundamentoseduardo/Practica1/```
 
-3. Crearemos un programa java llamado SalarioDH.java donde harémos un código que nos permita hacer el enunciado abriendo el editor de codigo.
+3. Una vez dentro crearemos un programa java llamado SalarioDH.java donde harémos un código que nos permita hacer el enunciado abriendo el editor de codigo.
 
     ```
     $ touch SalarioDH.java
@@ -114,8 +121,8 @@ public static void main(String[] args){
 4. Crearemos el codigo con las caracteristicas correspondientes:
 
    ```
-   public class SalarioDH{
-    public static void main (final String[] args){
+    public class SalarioDH{
+        public static void main (final String[] args){
 
         int Sueldoxhr=30;
         int Hrxdia=8;
@@ -124,15 +131,31 @@ public static void main(String[] args){
 
         Salario = Sueldoxhr * Hrxdia * dias;
 
+        System.out.println("El salario por hora es de $ 30.00");
         System.out.println("El salario que gana un trabajador por quincena es:");
-        System.out.println("$"+Salario);
-    }
-    }
-    ```
+        System.out.println("$ "+Salario+".00");
+     }
+     }
+    ``` 
+    
 
-5. Se compilara el programa java en el shell con el siguiente comando: ```$ java SalarioHD.java```y se ejecutara el programa en el shell: ```java SalarioHD``` con los datos configurados en el programa nos debe de dar un resultado de $ 3600.
+5. Ya creado el programa nos regresaremos a la consola git bash y se compilara el programa java con el siguiente comando: 
 
+    ```$ java SalarioHD.java```
+
+    y se ejecutara el programa en el shell: 
+    ```java SalarioHD``` 
+    
+    con los datos configurados en el programa nos debe de dar un resultado de $ 3600.
+
+    ![salario](https://i.imgur.com/Ps3ASYd.png)
 6. Al aplicar estos cambios en el directorio Practica 1 tendremos que guardar todos los cambios para que se almacenen en el repositorio en GitHub.
+```
+$ git status
+$ git add .
+$ git commit -m "Se agrego Programa SalarioDH"
+$ git push
+```
 ---
 ## Cuestionario
 
@@ -140,7 +163,7 @@ public static void main(String[] args){
 ¿Cómo se utilíza?**
 R= El comando para clonar un repositorio es: ```git clone https://github.com/EduardoYetmo/Fundamentoseduardo.git```
 Y nos sirve para copiar o clonar el repositorio qu esta almacenado en el GitHub y poder modificarlo en otra computadora ajena a la que lo creo esto con la finalidad de que puedas tener a dispocisión el proyecto o incluso compartirlo con alguien mas que pueda agregar algo.
-- **Explique para qu´e sirve y como se usa el comando ”git pull”**
+- **Explique para que sirve y como se usa el comando ”git pull”**
 R= 
 
 - **9. ¿Que pasa si está colaborando en un proyecto con otra persona, ambos clonan el
