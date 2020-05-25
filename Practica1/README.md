@@ -174,21 +174,21 @@ R= Al momento de hacer el pull la consola de git bash actualizara la clonación 
 ---
 ## Resultados
 
-Con esta práctica nos pudimos observar los diferente comando que existen para el manejo de Git Bash que nos facilitan el manejor de diferentes tareas que se puede realizar y es más directo tambien conocemos e identificamos la nomeclatura que hay tanto de codificadores como codigo.
+Con esta práctica nos pudimos observar los diferente comando que existen para el manejo de Git Bash que nos facilitan el manejor de diferentes tareas que se puede realizar y es más directo, tambien conocemos e identificamos la nomeclatura que hay tanto de codificadores como codigo.
 
 Cabe mencionar que conocimos diversas plataformas de trabajo que incluyen muchas herramientas que puede facilitar el proyecto que se realiza y nos intuye a investigar más en como podemos utilizar estas.
 
-Conforme al código se realizo los enunciados de una manera simple al conocimiento que se tiene en programación cumpliendo con lo que se pedía. En el primero se realizo un programa que hiciera una conversión de temperaturas usando la cantidad de 60 °C y su conversion es de 140 °F.
+Conforme al código se realizo los enunciados de una manera simple al conocimiento que se tiene en programación cumpliendo con lo que se pedía. En el primero se realizo un programa que hiciera una conversión de temperaturas usando la cantidad de 60 °C y su conversion es de 140 °F, utilizando la formular que conocemos que es F = °C * 9/5 +32.
 
 En el segundo enunciado nos pedían que obtuvieramos el salario de un trabajador por horas tomando como variables el suelo por hora, días y horas por día tomando asi un resultado final de $3600.
 
-Por último el GitHub es una herramienta que es de mucha utilidad ya que puedes compartir tus proyectos con demas usuarios o incluso para tu propia utilidad.
+Por último el GitHub es una herramienta que es de mucha utilidad ya que puedes compartir tus proyectos con demas colaboradores o incluso para tu propia utilidad.
 
 ---
 
 ## Discusión
 
-Esta práctica es muy útil ya que a pesar de que muchos de nosotros nos estamos iniciando se nos facilito el realizar este trabajo aunque es sencillo son las bases que nos llevaran a realizar proyectos mas grandes y complejos, tambien es importante irnos familiarizando con la variedad de software que nos ayudan a realizar con mayor facilidad nuestro trabajo y saber utilizalos.
+Esta práctica es muy útil ya que a pesar de que muchos de nosotros nos estamos iniciando en proframación se nos facilito el realizar este trabajo aunque es sencillo son las bases que nos llevaran a realizar proyectos mas grandes y complejos, tambien es importante irnos familiarizando con la variedad de software que nos ayudan a realizar con mayor facilidad nuestro trabajo y saber utilizalos.
 
 ---
 ## Conclusión
