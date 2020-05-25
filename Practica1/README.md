@@ -163,13 +163,13 @@ $ git push
 ¿Cómo se utilíza?**
 R= El comando para clonar un repositorio es: ```git clone https://github.com/EduardoYetmo/Fundamentoseduardo.git```
 Y nos sirve para copiar o clonar el repositorio qu esta almacenado en el GitHub y poder modificarlo en otra computadora ajena a la que lo creo esto con la finalidad de que puedas tener a dispocisión el proyecto o incluso compartirlo con alguien mas que pueda agregar algo.
-- **Explique para que sirve y como se usa el comando ”git pull”**
-R= 
+El comando se utiliza ```git pull```
+-  **Explique para que sirve y como se usa el comando ”git pull”**
+R= El comando git pull nos sirve para actualizar las modificaciones que se le hayan hecho al repositorio y este este clonado por otros colaboradores. Al escribir el comando todos los que tengan clonado el repositorio podran ver las modificaciones que se le han hecho. 
 
-- **9. ¿Que pasa si está colaborando en un proyecto con otra persona, ambos clonan el
-repositorio de github y ambos actualizan el mismo archivo, su colaborador hace un
+- **9. ¿Que pasa si está colaborando en un proyecto con otra persona, ambos clonan el repositorio de github y ambos actualizan el mismo archivo, su colaborador hace un
 push y le dice a usted que haga un pull?**
-R=
+R= Al momento de hacer el pull la consola de git bash actualizara la clonación del repositorio que tenemos almacenada y veremos las modificaciones o archivos agregados que los colaboradores subieron.
 
 ---
 ## Resultados
