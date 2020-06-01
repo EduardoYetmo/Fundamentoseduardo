@@ -10,10 +10,10 @@ public class Cuatro {
     double y2;
     double d;
 
-    x2 = s.nextDouble();
     x1 = s.nextDouble();
-    y2 = s.nextDouble();
+    x2 = s.nextDouble();
     y1 = s.nextDouble();
+    y2 = s.nextDouble();
 
     d = Math.sqrt((Math.pow(x2-x1,2)+Math.pow(y2-y1,2)));
 
