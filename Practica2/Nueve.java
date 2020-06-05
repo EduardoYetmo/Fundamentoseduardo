@@ -9,44 +9,61 @@ public class Nueve {
 
         Scanner s = new Scanner(System.in);
 
+        int unidad;
+        int decena;
+        int centena;
+        int millar;
         int n;
+        int temp = 0;
+
+        String[] unidadx = {"I", "II", "II", "IV", "V", "VI", "VII", "VIII", "IX"};
+        String[] decenax = {"X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC"};
+        String[] centenax = {"C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM"};
+        String[] millarx = {"M"};
+
+        s = new Scanner(System.in);
+
+        System.out.println("Ingresa un número: ");
 
         n = s.nextInt();
+        
+        unidad = n % 10;
+        n/= 10;
 
-        if(n==1){
-            System.out.println("I");
-        }
-        if(n==2){
-            System.out.println("II");
-        }
-        if(n==3){
-            System.out.println("III");
-        }
-        if(n==4){
-            System.out.println("IV");
-        }
-        if(n==5){
-            System.out.println("V");
-        }
-        if(n==6){
-            System.out.println("VI");
-        }
-        if(n==7){
-            System.out.println("VII");
-        }
-        if(n==8){
-            System.out.println("VIII");
-        }
-        if(n==9){
-            System.out.println("IX");
-        }
-        if(n==10){
-            System.out.println("X");
-        }
-        if(n <=11 && ){
-            System.out.println("V");
-        }
+        decena = n % 10;
+        n /= 10;
 
+        centena = n % 10;
+        n /= 10;
+
+        millar = n % 10;
+
+        System.out.println(); 
+        System.out.println("El número romano es:");
+
+        for (int i = 1; i <= 3; i++) {
+            if (millar == i && millar != 0) {
+                temp = i - 1;
+                System.out.println(millarx[temp]);
+            }
+        }
+        for (int i = 1; i <= 9; i++) {
+            if (centena == i && centena != 0) {
+                temp = i - 1;
+                System.out.println(centenax[temp]);
+            }
+        }
+        for (int i = 1; i <= 9; i++) {
+            if (decena == i && decena != 0) {
+                temp = i - 1;
+                System.out.println(decenax[temp]);
+            }
+        }
+        for (int i = 1; i <= 9; i++) {
+            if (unidad == i && unidad != 0) {
+                temp = i - 1;
+                System.out.println(unidadx[temp]);
+            }
+        }
     }
-    
 }

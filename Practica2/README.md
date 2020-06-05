@@ -34,10 +34,6 @@ En esta actividad el objetivo era llevar a cabo un codigo que nos permitiera ide
 se utilizaron comando Scanner para que el usuario capturara la calificación con numeros y con un "if" comparar las calificaciones y dependiendo el numero era la calificación que obtendria el alumno.
 Este archivo lo nombranos **Ocho.java**.
 
-##### - Números Romanos
-
-
-
 ##### - Retiro de Dinero
 En esta práctica fue mas laboriosa ya que se utilizaron diferentes herramientas incluyendo el Scanner y el if, ademas de utilizar diferentes métodos para la realización de este.
 
