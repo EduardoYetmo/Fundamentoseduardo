@@ -29,7 +29,7 @@ public class Ocho {
     
     }else{
     
-    if(7.5 <= c && c < 10){
+    if(7.5 <= c && c <= 10){
       
         System.out.println("La calificación es: MB");
     }
