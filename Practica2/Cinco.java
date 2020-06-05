@@ -1,3 +1,5 @@
+/**5. Indica el mayor de tres números dados por el usuario */
+
 import java.util.Scanner;
 
 public class Cinco{
