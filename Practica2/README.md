@@ -45,8 +45,31 @@ Al llevara cada instrucción desde inicio lleva muchos enlaces donde preguntan d
 
 Aplicando la tarea principal de un usuario cuando retira dinero paso a paso hasta finalizar la tarea que se desea incluyendo algunas opciones para elegir la cantidad que desee retirar o incluso el usuario pueda elegir una cantidad diferente a la que se les da.
 
-Está es la practica **Diez.java**
+Está es la practica **Diez.java**.
 
 ##### - Deposito de Dinero
 
-En esta práctica se inicio algo parecido a la practica anterior identificando cuál era el procedimiento del deposito de dinero en un cajero automático desde el insertar tu tarjeta si hasta la cantidad que se depositara 
+En esta práctica se inicio algo parecido a la practica anterior identificando cuál era el procedimiento del deposito de dinero en un cajero automático desde el insertar tu tarjeta, hasta la cantidad que se depositara utilizando de igual manera las instrucciones de asignación, lectura y escritura.
+
+Tambien se utilizaron metodos donde se utilizan preguntas, ayudando el procedimiento del usuario para el deposito de dinero a una cuenta.
+
+La práctica es **Once.java**.
+
+---
+### - Resultados
+
+El desarrollar está práctica nos ayuda con el desarrollo de conociminetos ya que es otro paso para ir familiarizandonos con el lenguaje de programación.
+
+El reto de esta practica fue el crear el procedimiento del retiro de dinero de un cajero ya que aplicamos basicamente todo lo aprendido en la clase y en la práctica.
+
+En las demas el reto es como buscar la forma de resolverlo apesar de que se veian simples tenian su nivel de complejidad y al ir resolviendolos nos daban ideas para resolver el siguiente hasta llegar al último.
+
+---
+### - Discusión
+En estas practicas la confunción que existio fue el manipular el código y no escribir algo que no pertenece, tenemos que llevar un control y un orden para que no suceda, ademas que ir conociendo para que sirve cada comando y que es lo que hace para poder ayudarnos con eso a resolver el enunciado.
+
+---
+### - Conclusión
+Al terminar la práctica, nos da una satisfacción el haber cumplido con el objetivo principal del mismo, el llevar todas las instrucciones a desarrollo y ver el funcionamiento de todo el codigo.
+
+Tanto con los ejercicios como con las actividades que se realizaron nos llevamos un conocimiento diferente con una estrategia para el resolverlo, tambien el poder compararlo con otros trabajos nos puede ayudar para darnos una idea de como resolverlo y asi ayudarnos en un futuro en proyectos y cumplir con dicho objetico

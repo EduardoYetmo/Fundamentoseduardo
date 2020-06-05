@@ -23,7 +23,7 @@ public class Diez{
     a = s.nextDouble();
 
     System.out.println("Tu saldo en tu cuenta es de: $ " + saldo + "0");
-    System.out.println("¿Quieres hacer un retiro");
+    System.out.println("¿Quieres hacer un retiro?");
     
     pregunta = SoN();
     
@@ -64,7 +64,8 @@ public class Diez{
                 System.out.println("Espere un momento...");  
                 System.out.println("***Retire su dinero***");
                 System.out.println("***Retire su ticket***");
-                System.out.println("***Retire su tarjeta***");         
+                System.out.println("***Retire su tarjeta***");
+                System.out.println("Gracias por su preferencia.");         
             }
             if(pregunta == 2){
                 System.out.println("Digite otra cantidad: ");
@@ -77,7 +78,8 @@ public class Diez{
                     System.out.println("Espere un momento..."); 
                     System.out.println("***Retire su dinero***");
                     System.out.println("***Retire su ticket***");
-                    System.out.println("***Retire su tarjeta***");   
+                    System.out.println("***Retire su tarjeta***");
+                    System.out.println("Gracias por su preferencia.");   
                 } 
                 if(pregunta == 2){
                     System.out.println("***Su transferencia fue denegada, intente mas tarde***");
@@ -87,6 +89,7 @@ public class Diez{
            
        
         }
+        
         pregunta = SoN();
 
         if(pregunta == 1){
@@ -94,18 +97,19 @@ public class Diez{
             System.out.println("***Retire su dinero***");
             System.out.println("***Retire su ticket***");
             System.out.println("***Retire su tarjeta***");
+            System.out.println("Gracias por su preferencia.");
         }
         if(pregunta == 2){
             System.out.println("***Su transferencia fue denegada, intente mas tarde***");
             System.out.println("Gracias por su preferencia.");
         }
 
-
     }
     if(pregunta == 2){
-    
+        
     }
-
+    System.out.println("***Retire su tarjeta***");
+    System.out.println("Gracias por su preferencia.");
 
     
     
