@@ -18,17 +18,13 @@ public class Act1 {
                         break;
             case "MB": suma += 10.0;
                         break;
-            
-            case default: cont++;
-
-            System.out.println(c);
-            System.out.println("Escribe tu calificación; ");
-            c = sc.next();
+            default : cont ++;
+                        break;
+        
 
 
 
     }
-}
     if(cont == 0){
         System.out.println("No escribiste nada");
     }else{
@@ -36,5 +32,7 @@ public class Act1 {
     System.out.println("Tu promedio es: " + suma/cont);
     }
     
+}
+   
 }
 }
