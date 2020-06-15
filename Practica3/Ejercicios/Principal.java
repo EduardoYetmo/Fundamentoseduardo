@@ -141,7 +141,7 @@ public class Principal {
         x+=2;
         System.out.println(" iteración: " + i + ", x= " + x);
     }
-    System.out.println("Esto es despues del while");
+    System.out.println("Esto es despues del For");
 
 
 
