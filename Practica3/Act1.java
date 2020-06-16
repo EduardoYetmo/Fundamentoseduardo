@@ -7,6 +7,7 @@ public class Act1 {
         String c;
         double suma = 0;
         int cont = 0;
+        int contnv = 0;
 
         System.out.println("Escribe tu calificación: ");
         c = sc.nextLine();
@@ -23,6 +24,7 @@ public class Act1 {
                 case "NA": suma += 5.0;
                         break;
                 default: System.out.println("El valor es invalido");
+                contnv++;
             }
 
             cont++; 
@@ -30,6 +32,8 @@ public class Act1 {
             System.out.println("Escribe tu calificación; ");
             c = sc.next();
         }
+
+        cont = cont - contnv;
     
         if(cont == 0){
             System.out.println("No escribiste nada");
