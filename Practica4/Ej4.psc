@@ -7,5 +7,5 @@ Proceso Ej4
 		acumulador <- acumulador+num;
 	FinPara
 	r <- acumulador / 10;
-	Escribir 'Primedio = ',r;
+	Escribir 'Promedio = ',r;
 FinProceso
