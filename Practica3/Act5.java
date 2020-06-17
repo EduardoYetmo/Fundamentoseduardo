@@ -8,22 +8,19 @@ public class Act5 {
         int a=0;
         int b=1;
         int c;
+        
 
         System.out.println("\nIngrese un número: ");    
         n = sc.nextInt();
-        System.out.println("\nSiendo f0=0 y f1=1 el resultado es: \n");
+        System.out.println("\nSiendo f(0)=0 y f(1)=1 el resultado es: \n");
 
-        for(int i=1;i>=a;i++){
+        for(int i=1; i<=n; i++){
             System.out.println(a);
-            c = a+b;
+            c = a +b;
             a = b;
             b = c;
         }
-        
         System.out.println(a);
-        System.out.println("\nEl resultado es: "+ a);
-        
-        
+        System.out.println("\nEl resultado f("+ n + ") es :" + a);
     }
-    
 }
