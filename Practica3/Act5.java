@@ -1,5 +1,8 @@
+/*Sea "n" un número dado por el usuario, mostrar el n-esimo número de Fibonacci.
+  El n-esimo número de Fibonacci se calcula en función de los números n-1 y n-2 
+  de la siguiente forma: f(n) = f(n-1) + f(n-2) para n>=2 y por definición 
+  f(0) = 0 y F(1) = 1.*/
 import java.util.Scanner; 
-
 public class Act5 {
     public static void main(String[] args) {
         
@@ -9,10 +12,10 @@ public class Act5 {
         int b=1;
         int c;
         
-
-        System.out.println("\nIngrese un número: ");    
+        System.out.println("\n      *****n-ésimo Número de Fibonacci*****");
+        System.out.print("\nIngrese un número: ");    
         n = sc.nextInt();
-        System.out.println("\nSiendo f(0)=0 y f(1)=1 el resultado es: \n");
+        System.out.println("\nPor definición, f(0)=0 y f(1)=1 por lo tanto: \n");
 
         for(int i=1; i<=n; i++){
             System.out.println(a);
@@ -21,6 +24,6 @@ public class Act5 {
             b = c;
         }
         System.out.println(a);
-        System.out.println("\nEl resultado f("+ n + ") es :" + a);
+        System.out.println("\nY el resultado f("+ n + ") = " + a);
     }
 }
