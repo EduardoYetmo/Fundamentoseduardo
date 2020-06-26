@@ -5,6 +5,7 @@ Proceso sin_titulo
 	pares <- 0;
 	impares <- 0;
 	cont <- 0;
+	Escribir 'Ingresa los números: ';
 	Mientras cont<10 Hacer
 		Leer num;
 		Si num MOD 2=0 Entonces
@@ -15,5 +16,5 @@ Proceso sin_titulo
 		cont <- cont+1;
 	FinMientras
 	Escribir 'Pares: ',pares;
-	Escribir 'Impares; ',impares;
+	Escribir 'Impares: ',impares;
 FinProceso

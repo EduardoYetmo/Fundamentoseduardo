@@ -1,22 +1,23 @@
 import java.util.Scanner; 
+
 public class Ej2 {
     public static void main(String[] args) {
-        
-        int a, b;
         Scanner sc = new Scanner(System.in);
+        int x;
+        int y;
 
-        a = sc.nextInt();
-        b = sc.nextInt();
-        
-        if(a>b){
-            System.out.println("El mayor es = " + a);
+        System.out.println("Escribe los números: ");
+
+        x = sc.nextInt();
+        y = sc.nextInt();
+
+        if(x>y){
+            System.out.println("El mayor es: "+ x);
+        }else{
+            System.out.println("El mayor es:"+ y);
         }
-        if(a==b){
-            System.out.println("Los números son iguales");
-        }
-        if(a<b){
-            System.out.println("El mayor es = " + b);
-        }
-        
+
+
     }
+    
 }

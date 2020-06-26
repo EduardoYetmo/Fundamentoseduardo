@@ -1,11 +1,14 @@
-Proceso Ej3
-	Definir s,a,b,c Como Entero;
-	Definir r Como Real;
-	Leer a;
-	Leer b;
-	Leer c;
-	s <- a+b+c;
-	Escribir 's= ',s;
-	r <- s/3;
-	Escribir 'El promedio es: ',r;
+Proceso sin_titulo
+	Definir n1,n2 Como Entero;
+	Leer n1;
+	Leer n2;
+	Si n1>n2 Entonces
+		Escribir 'El mayor es: ',n1;
+	SiNo
+		Si n1=n2 Entonces
+			Escribir 'Los números son iguales';
+		SiNo
+			Escribir 'El mayor es: ',n2;
+		FinSi
+	FinSi
 FinProceso

@@ -1,11 +1,12 @@
 Proceso Ej4
-	Definir i,acumulador,num Como Entero;
+	Definir a,b,c,s Como Entero;
 	Definir r Como Real;
-	acumulador <- 0;
-	Para i<-1 Hasta 10 Hacer
-		Leer num;
-		acumulador <- acumulador+num;
-	FinPara
-	r <- acumulador / 10;
-	Escribir 'Promedio = ',r;
+	Escribir 'Ingrese los números para calcular el promedio: ';
+	Leer a;
+	Leer b;
+	Leer c;
+	s <- a+b+c;
+	Escribir 'Sumatoria de los números es: ',s;
+	r <- s/3;
+	Escribir 'El promedio es: ',r;
 FinProceso

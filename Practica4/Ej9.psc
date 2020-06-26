@@ -8,10 +8,10 @@ Proceso Ej9
 	cont <- n;
 	Repetir
 		Leer num;
-		Si num > ma Entonces
+		Si num>ma Entonces
 			ma <- num;
 		FinSi
-		Si num < me Entonces
+		Si num<me Entonces
 			me <- num;
 		FinSi
 		cont <- cont-1;
