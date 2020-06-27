@@ -13,15 +13,13 @@ public class Prob3 {
         System.out.println("2.-Tarjeta tipo 2");
         System.out.println("3.-Tarjeta tipo 3");
         System.out.println("4.-Otra tarjeta");
-        System.out.println("5.-Manejo más de una tarjeta");
-        System.out.println("6.-No majeno tarjetas");
+        System.out.println("5.-No majeno tarjetas");
+    
+
+        do{
+        
         System.out.println("\nPor favor indique que tipo de tarjeta maneja");
-
-       
-
         TT = sc.nextInt();
-
-        while(TT >= 6){
 
         switch(TT){
             case 1: 
@@ -69,17 +67,6 @@ public class Prob3 {
                     break;
 
             case 5: 
-                    System.out.println("Usted maneja mas de dos tarjetas");
-                    System.out.print("Indique cuantas tarjetas maneja: ");
-                    n = sc.nextInt();
-                    System.out.println("Indique en que tarjeta le gustaria que le aplicara el aumento de límite de credito");
-                    System.out.println("1.-Tarjeta tipo 1");
-                    System.out.println("2.-Tarjeta tipo 2");
-                    System.out.println("3.-Tarjeta tipo 3");
-                    TT = sc.nextInt();
-                    break;
-
-            case 6: 
                     System.out.println("---Gracias por su atencion y preferencia---");
                     break;
             default: 
@@ -87,8 +74,8 @@ public class Prob3 {
                     
         
         }
-    }
-
+    
+    }while(TT >= 6);
     
 }
 }
