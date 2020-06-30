@@ -23,7 +23,7 @@ public class Prob5 {
                 B = B+1;
             }
             if(N<500){
-                C = c+1;
+                C = C+1;
             }
 
         }
