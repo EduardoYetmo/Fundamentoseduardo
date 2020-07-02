@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Cuatro {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
-        double a;
+        double a, r;
         double saldo = 5000;
         double otra;
         int pregunta;
@@ -28,24 +28,31 @@ public class Cuatro {
             switch(respuesta){
                 case 1: 
                     System.out.println("Está seguro que desea retirar $ 50.00");
+                    r = SoN();
                     break;
                 case 2:
                     System.out.println("Está Seguro que desea retirar $ 100.00");
+                    r = SoN();
                     break;
                 case 3:
                     System.out.println("Está Seguro que desea retirar $ 200.00");
+                    r = SoN();
                     break;
                 case 4:
                     System.out.println("Está Seguro que desea retirar $ 300.00");
+                    r = SoN();
                     break;
                 case 5:
                     System.out.println("Está Seguro que desea retirar $ 400.00");
+                    r = SoN();
                     break;
                 case 6:
                     System.out.println("Está Seguro que desea retirar $ 500.00");
+                    r = SoN();
                     break;
                 case 7:
                     System.out.println("Está Seguro que desea retirar $ 1000.00");
+                    r = SoN();
                     break;
                 case 8:
                         otra = canti(); 
