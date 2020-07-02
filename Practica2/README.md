@@ -31,9 +31,9 @@ Este programa lo nombranos **Dos.java**.
 En esta práctica se utilizaron dos estructuras las cuales fueron **if** como principal y **for** identificando el número que ingrese el usuario y dando como resultado su equivalente a número romano.
 Tambien se utilizo un metodo que al declararlo hacia la conversión a número romano.
 El archivo lo llamamos **Tres.java**
-![Romano](/assets/Romano.png)
+![Romano](https://i.imgur.com/GHhHQoB.png)
 
-##### 4.- Retirno de Dinero
+##### 4.- Retiro de Dinero
 En está practica se utilizaron diferentes Estructuras conforme a lo que se fue aprendiendo en las practicas avanzadas ya que ayudaba a la realización de esta.
 Las estructuras que se ocuparon fueron: **switch, if, do while** e incluimos algunos métodos para que al ir realizando el proceso del programa tenga algún resultado para la opción que indicara el usuario.
 El objetivo principal era el retiro de dinero de un usuario pidiendo desde el NIP hasta elegir la opción de cuanto desea retirar e incluyendo la opción de cancelar la operación.
@@ -43,7 +43,7 @@ El programa lo nombramos **Cuatro.java.**
 ##### 5.-Deposito de Dinero
 La realización de esta práctica fue algo parecido a la anterior se modifico conforme se fue avanzando el curso con diferentes estructuras y metodos para llevar a cabo el objetivo principal de un deposito de dinero a cierta cuenta.
 El nombre de este archivo es de **Cinco.java**.
-![Deposito](/assets/Deposito.png)
+![Retiro](https://i.imgur.com/vgnp94c.png)
 
 ---
 
