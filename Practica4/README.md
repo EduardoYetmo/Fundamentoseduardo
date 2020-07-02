@@ -9,7 +9,9 @@
 Descargar e instalar el programa PSeint.
 
 ![PSeint](https://i.imgur.com/QzDV0QC.png)
+
 Al abrir el software tenemos que ir conociendo las herramientas que nos ofrece para nosotros desarrollar algun programa de una manera mas sencilla y explicita.
+
 ![Ventana](https://i.imgur.com/Wj4Ao5X.png)
 
 Con las siguientes actividades iremos conociendo las herramientas, estructuras y diagramas que se pueden realizar.
@@ -17,11 +19,13 @@ Con las siguientes actividades iremos conociendo las herramientas, estructuras y
 **Actividad 1: Hola Mundo**
 En la primera práctica simplemente se ejecutara un **"Hola Mundo"** utilizando el comando **Escribir**.
 Este programa se nombro **Ej1.psc.**
+
 ![Escribir](https://i.imgur.com/uMglDBd.png)
 
 **Actividad 2: El número mayor de dos números**
 En esta práctica utilizamos los comando **asignacion, escribir, leer y si-entonces** y consiste en encontrar el mayor de dos números dados por el usuario.
 Este programa se nombro **Ej2.psc.**
+
 ![comandos](https://i.imgur.com/twpcqP6.png)
 
 **Actividad 3: Números iguales.**
@@ -31,12 +35,14 @@ Este programa se nombro **Ej3.psc.**
 **Actividad 4: Promedio de 3 números.**
 En este programa se ingresan 3 número por el usuario y se hara una sumatoria de ellos y se obtendra el promedio de ellos.
 Este programa se nombro **Ej4.psc.**
+
 ![Ej4](https://i.imgur.com/fnsd5rI.png)
 
 **Actividad 5: Promedio de "n" números.**
 En esta práctica nos pide que el usuario ingrese una cantidad de datos y que ingrese dato por dato para que se obtenga una sumatoria y obtener su promedio. 
 Se utilizo el comando **Para** para llevar acabo el objetivo principal.
 Este programa se nombro **Ej5.psc.**
+
 ![para](https://i.imgur.com/DXUcXO6.png)
 
 **Actividad 6: Área de un circulo**
@@ -46,6 +52,7 @@ Este programa se nombro **Ej6.psc.**
 **Actividad 7: Números pares e impares.**
 El objetivo principal de este programa es identificar que números son pares impares de 10 datos ingresados por el usuario, utilizando un contador y el comando **mientras** condicionandolo que contador debe recibir 10 datos, tambien utilizando el comando **si-entonces** condicionando el modulo del numero ingresado y 2 es igual a cero el numero es par y si es lo contrario es impar.
 Este programa se nombro **Ej7.psc.**
+
 ![Ej7](https://i.imgur.com/xSI5qvc.png)
 
 **Actividad 8: Suma de los primeros "n" numeros naturales.**
@@ -55,6 +62,7 @@ Este programa se nombro **Ej8.psc.**
 **Actividad 9: Mayor y Menor de "n" números.**
 La realización de esta práctica se le pide al usuario que ingrese utilizando el comando **Repetir-Hasta que** se ingresan la cantidad de numeros que indico el usuario aleatoriamente y al finalizar se indica cual de todos es el mayor y el menor.
 Este programa se nombro **Ej9.psc.**
+
 ![Ej9](https://i.imgur.com/FBoM0U9.png)
 
 **Actividad 10: Máximo Comúm Divisor.**

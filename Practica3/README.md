@@ -93,7 +93,9 @@ for(int i=1; i<=n; i++){
 ```
 
 - **Act6:** En este programa se aplico algo similar al anterior utilizando la misma estructura pero cumpliendo las caracteristicas que nos pedian aplicando aqui el numero de Padovan y por definición **P(0) = 1**, **P(1) = 1** y **P(2) = 1**.
+
 ![Padovan](https://i.imgur.com/9Jn31xa.png)
+
 ---
 ##### Resultados
 

@@ -24,6 +24,7 @@ public static double solicitarOperador(){
         return x;
     }
 ```
+
 ![suma](https://i.imgur.com/uSZix1i.png)
 
 4.- Una vez imprimiendo el resultado enseguida te vuelve a ejecutar el menú dandote la opción de realizar otra operación diferente o incluso salir de la calculadora.
