@@ -40,13 +40,13 @@ Las estructuras que se ocuparon fueron: **switch, if, do while** e incluimos alg
 El objetivo principal era el retiro de dinero de un usuario pidiendo desde el NIP hasta elegir la opción de cuanto desea retirar e incluyendo la opción de cancelar la operación.
 El programa lo nombramos **Cuatro.java.**
 
-![Retiro](/assets/Retiro.png)
+![Retiro](https://i.imgur.com/vgnp94c.png)
 
 ##### 5.-Deposito de Dinero
 La realización de esta práctica fue algo parecido a la anterior se modifico conforme se fue avanzando el curso con diferentes estructuras y metodos para llevar a cabo el objetivo principal de un deposito de dinero a cierta cuenta.
 El nombre de este archivo es de **Cinco.java**.
 
-![Retiro](https://i.imgur.com/vgnp94c.png)
+![Deposito](https://i.imgur.com/zgGdJlG.png)
 
 ---
 
