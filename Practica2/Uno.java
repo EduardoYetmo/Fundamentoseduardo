@@ -1,29 +1,61 @@
-/*1. Hacer un programa para calcular la velocidad de un objeto dad la distancia y el tiempo.
-*/
-
-import java.util.Scanner;
-
-public class Uno {
+//Actividad 1: Dados tres números obtener el resultado de multiplicar 
+//los dos mayores mas el menor.
+import java.util.Scanner; 
+public class Uno{
     public static void main(String[] args) {
         
         Scanner s = new Scanner(System.in);
+            
+        double a;
+        double b;
+        double c;
+        double resultado;
 
-       
-        double d;
-        double t;
-        double v;
+        System.out.println("Ingresa 3 Número: ");
 
-        System.out.println("Ingresa la distancia:");
-        d = s.nextDouble();
-        System.out.println("Ingresa el tiempo:");
-        t = s.nextDouble();
+        a = s.nextDouble();
+        b = s.nextDouble();
+        c = s.nextDouble();
 
-        v=d/t;
+        if(a>b && b>c){
+            resultado = a * b + c;
+            System.out.println(resultado);
+        
+        }else{
+        
+            if(a>c && c>b){
+                resultado = a * c + b;
+                System.out.println(resultado);
+        
+            }else{
+        
+                if(b>a && a>c){
+                    resultado = b * a + c;
+                    System.out.println(resultado);
+        
+                }else{
+        
+                    if(b>c && c>a){
+                        resultado = b * c + a;
+                        System.out.println(resultado);
+                    
+                    }else{
 
-        System.out.println("Velocidad = " + v + " m/s");
+                        if(c>a && a>b){
+                            resultado = c * a + b;
+                            System.out.println(resultado);
+            
+                            }else{ 
 
-
-
+                                if(c>b && b>a){
+                                    resultado = c * b + a;
+                                    System.out.println(resultado);
+            
+                                }
+                            }
+                        }
+                    }
+                }
+            }
     }
-    
 }

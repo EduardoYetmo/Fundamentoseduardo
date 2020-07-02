@@ -1,9 +1,7 @@
-/*Actividad 2: Calcular el promedio de un conjunto de numeros positivos.
-Los números son ingresados por el usuario y el promedio se calculará y 
-mostrará cuando se ingrese un número negativo.
-*/
-
-import java.util.Scanner;
+//Actividad 2: Calcular el promedio de un conjunto de numeros positivos.
+//Los números son ingresados por el usuario y el promedio se calculará y 
+//mostrará cuando se ingrese un número negativo.
+import java.util.Scanner; 
 public class Act2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

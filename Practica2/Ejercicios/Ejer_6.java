@@ -1,11 +1,8 @@
-/**6. Resuelva la ecuación ax^2 + bx + c para a, b y c dados por el usuario */
-
-import java.util.Scanner;
-
-public class Seis {
+//6. Resuelva la ecuación ax^2 + bx + c para a, b y c dados por el usuario.
+import java.util.Scanner; 
+public class Ejer_6 {
     public static void main(String[] args) {
-    
-    Scanner s = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         double a;
         double b;
         double c;
@@ -17,12 +14,14 @@ public class Seis {
         double x1;
         double x2;
 
+        System.out.println("Ingresa los valores de una Ecuacion cuadratica; ");
+
         System.out.println("Valor de a"); 
-        a = s.nextDouble();
+        a = sc.nextDouble();
         System.out.println("Valor de b"); 
-        b = s.nextDouble();
+        b = sc.nextDouble();
         System.out.println("Valor de c"); 
-        c = s.nextDouble();
+        c = sc.nextDouble();
 
         d = Math.pow(b,2);
         e = 4 * a * c;
@@ -36,7 +35,5 @@ public class Seis {
 
         System.out.println("x1 = " + x1 );
         System.out.println("x2 = " + x2 );
-    
     }
-    
 }

@@ -2,10 +2,9 @@
   El n-esimo número de Fibonacci se calcula en función de los números n-1 y n-2 
   de la siguiente forma: f(n) = f(n-1) + f(n-2) para n>=2 y por definición 
   f(0) = 0 y F(1) = 1.*/
-import java.util.Scanner; 
+import java.util.Scanner;
 public class Act5 {
     public static void main(String[] args) {
-        
         Scanner sc = new Scanner(System.in);
         int n;
         int a=0;
@@ -25,5 +24,7 @@ public class Act5 {
         }
         System.out.println(a);
         System.out.println("\nY el resultado f("+ n + ") = " + a);
+    
+        
     }
 }

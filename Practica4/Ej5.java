@@ -1,7 +1,9 @@
-import java.util.Scanner;
-public class Ej5{
+//Actividad 5: Modifica el problema anterior para calcular
+//el promedio de "n" número, tanto n como los números deben 
+//ser dados por el usuario(utiliza el ciclo for).
+import java.util.Scanner; 
+public class Ej5 {
     public static void main(String[] args) {
-        
         Scanner sc = new Scanner(System.in);
         int n;
         int num;
@@ -17,10 +19,7 @@ public class Ej5{
             n = sc.nextInt();
             acum = acum+n;
         }
-
         r = acum/num;
-
         System.out.println("El promedio es: " + r);
-
     }
 }

@@ -1,71 +1,66 @@
-## Practica2
+## Practica 2
 ---
-### Resumen
-
+#### Resumen
 - En esta práctica aplicamos el uso de diversas herramientas básicas del lenguaje de programación Java que nos ayudan a llevar a cabo los diferentes problemas que nos presentan para desarrollarlos.
 
 - Desde un punto básico detallado de como usar una variable y declararla hasta dar instrucciones de operación y nos ayuden a dar una solución.
 
-- Diferentes usos que llevaremos acabo en todo el curso y nos ayudaran a facilitar el trabajo en combinación  
-
+- Llevaremos acabo diferentes usos en programación que nos ayuden a facilitar el trabajo en combinación.
 ---
-
 ### Desarrollo
+Se creo un nuevo directorio llamado **Practica 2** en donde se guardaran los ejercicios que se aplicaron los ejercicios y actividades a evaluar separándolos por medio de un directorio llamado **Ejercicios** e identificando las actividades con sus nombres que son del 1 al 5.
 
-1. Se creó un nuevo directorio llamado Práctica 2 en donde se iba a almacenar todos los ejercicios llevados a cabo en la práctica y se guardaran en un orden del 1 al 11 incluyendo ejercicios y actividades.
-
-##### - Operación tres dígitos:
-Esta práctica se llevó a cabo aplicando el comando scanner e “if” en combinación se desarrolló un código que nos ayudara a identificar los dos mayores multiplicarlos y sumar el menor.
-
+##### 1.- Operación tres dígitos:
+Esta practica se llevo a cabo aplicando el comando **Scanner** e **if** en combinación se desarrolló un código que nos ayudara a identificar los dos números mayores multiplicarlos y sumar el número menos.
 ```
 import java.util.Scanner;
 
 if(a>b){}
 ```
+Este programa lo nombramos **Uno.java** y se encuentra en el directorio de **Práctica2**.
 
-este archivo lo nombramos **Siete.java** y se encuentra en el directorio de Práctica2.
-
-##### - Calificaciones
+##### 2.- Calificaciones:
 En esta actividad el objetivo era llevar a cabo un codigo que nos permitiera identificar que calificación tiene un alumno conforme a una escala:
-#####0 <= c < 6 ----------> NA 
-#####6 <= c < 7.5---------> B
-#####7.50 <= c < 10 -----> MB
+**0 <= c < 6 ----------> NA**
+**6 <= c < 7.5---------> B**
+**7.50  <= c < 10 -----> MB**
+se utilizaron comando **Scanner** para que el usuario capturara la calificación con numeros y con un **if** comparar las calificaciones y dependiendo el numero era la calificación que obtendria el alumno.
+Este programa lo nombranos **Dos.java**.
 
-se utilizaron comando Scanner para que el usuario capturara la calificación con numeros y con un "if" comparar las calificaciones y dependiendo el numero era la calificación que obtendria el alumno.
-Este archivo lo nombranos **Ocho.java**.
+##### 3.- Números Romanos
+En esta práctica se utilizaron dos estructuras las cuales fueron **if** como principal y **for** identificando el número que ingrese el usuario y dando como resultado su equivalente a número romano.
+Tambien se utilizo un metodo que al declararlo hacia la conversión a número romano.
+El archivo lo llamamos **Tres.java**
+![Romano](/assets/Romano.png)
 
-##### - Retiro de Dinero
-En esta práctica fue mas laboriosa ya que se utilizaron diferentes herramientas incluyendo el Scanner y el if, ademas de utilizar diferentes métodos para la realización de este.
+##### 4.- Retirno de Dinero
+En está practica se utilizaron diferentes Estructuras conforme a lo que se fue aprendiendo en las practicas avanzadas ya que ayudaba a la realización de esta.
+Las estructuras que se ocuparon fueron: **switch, if, do while** e incluimos algunos métodos para que al ir realizando el proceso del programa tenga algún resultado para la opción que indicara el usuario.
+El objetivo principal era el retiro de dinero de un usuario pidiendo desde el NIP hasta elegir la opción de cuanto desea retirar e incluyendo la opción de cancelar la operación.
+El programa lo nombramos **Cuatro.java.**
+![Retiro](/assets/Retiro.png)
 
-Al llevara cada instrucción desde inicio lleva muchos enlaces donde preguntan dependiendo la tarea que desea realizar el usuario, y al no tener alguna otra tarea finalizaba.
-
-Aplicando la tarea principal de un usuario cuando retira dinero paso a paso hasta finalizar la tarea que se desea incluyendo algunas opciones para elegir la cantidad que desee retirar o incluso el usuario pueda elegir una cantidad diferente a la que se les da.
-
-Está es la practica **Diez.java**.
-
-##### - Deposito de Dinero
-
-En esta práctica se inicio algo parecido a la practica anterior identificando cuál era el procedimiento del deposito de dinero en un cajero automático desde el insertar tu tarjeta, hasta la cantidad que se depositara utilizando de igual manera las instrucciones de asignación, lectura y escritura.
-
-Tambien se utilizaron metodos donde se utilizan preguntas, ayudando el procedimiento del usuario para el deposito de dinero a una cuenta.
-
-La práctica es **Once.java**.
-
----
-### - Resultados
-
-El desarrollar está práctica nos ayuda con el desarrollo de conociminetos ya que es otro paso para ir familiarizandonos con el lenguaje de programación.
-
-El reto de esta practica fue el crear el procedimiento del retiro de dinero de un cajero ya que aplicamos basicamente todo lo aprendido en la clase y en la práctica.
-
-En las demas el reto es como buscar la forma de resolverlo apesar de que se veian simples tenian su nivel de complejidad y al ir resolviendolos nos daban ideas para resolver el siguiente hasta llegar al último.
+##### 5.-Deposito de Dinero
+La realización de esta práctica fue algo parecido a la anterior se modifico conforme se fue avanzando el curso con diferentes estructuras y metodos para llevar a cabo el objetivo principal de un deposito de dinero a cierta cuenta.
+El nombre de este archivo es de **Cinco.java**.
+![Deposito](/assets/Deposito.png)
 
 ---
-### - Discusión
-En estas practicas la confunción que existio fue el manipular el código y no escribir algo que no pertenece, tenemos que llevar un control y un orden para que no suceda, ademas que ir conociendo para que sirve cada comando y que es lo que hace para poder ayudarnos con eso a resolver el enunciado.
+
+### Resultado
+El desarrollo de está práctica nos ayudo a ir conociendo las diferentes herramientas que podemos utilizar para darle solucion a los enunciados que nos plantean e ir conociendo los diferentes procesos que se pueden llevar a cabo para solucionarlos.
+
+Tambien el cumplir con cada uno de los enunciados podemos analizar otros resultados para lo que podemos utilizar los metodos y estructuras.
+Ayuda mucho el ir modificando las practicas conforme vamos avanzando ya que puedes ir mejorando el resultado de las practicas y te facilitan el proceso de este.
 
 ---
-### - Conclusión
+### Discusión
+Podemos decir que esta practica tuvo principalmente la dificultad de llevar el control de todo el codigo ya que tiene todo un orden para ver que varibles declarar y que otras nos sirven para obtener algun resultado.
+
+Tambien el definir que es lo que queremos expresar mediante la estructura e ir conociendo que es lo que hacer y para que te sirven o en que te pueden ayudar.
+
+---
+### Conclusión
 Al terminar la práctica, nos da una satisfacción el haber cumplido con el objetivo principal del mismo, el llevar todas las instrucciones a desarrollo y ver el funcionamiento de todo el codigo.
 
-Tanto con los ejercicios como con las actividades que se realizaron nos llevamos un conocimiento diferente con una estrategia para el resolverlo, tambien el poder compararlo con otros trabajos nos puede ayudar para darnos una idea de como resolverlo y asi ayudarnos en un futuro en proyectos y cumplir con dicho objetico
+Tanto con los ejercicios como con las actividades que se realizaron nos llevamos un conocimiento diferente con una estrategia para el resolverlo, tambien el poder compararlo con otros trabajos nos puede ayudar para darnos una idea de como resolverlo y asi ayudarnos en un futuro en proyectos y cumplir con dicho objetico.

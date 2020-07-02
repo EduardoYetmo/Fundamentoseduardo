@@ -15,7 +15,7 @@ Proceso Ej9
 			me <- num;
 		FinSi
 		cont <- cont-1;
-	Hasta Que cont=0
+	Hasta Que cont = 0
 	Escribir 'Mayor = ',ma;
 	Escribir 'Menor= ',me;
 FinProceso

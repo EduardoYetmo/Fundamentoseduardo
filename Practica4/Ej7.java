@@ -1,14 +1,15 @@
-import java.util.Scanner; 
-
-public class Ej7{
+//Actividad 7: Indica cuantos números pares e impares hay en 10
+//números dados por el usuario.
+import java.util.Scanner;
+public class Ej7 {
     public static void main(String[] args) {
-
         Scanner sc = new Scanner(System.in);
         int pares=0;
         int impares=0; 
         int cont = 0;
         int num;
 
+        System.out.println("***Pares e impares en 10 números***");
         System.out.println("Ingresa los números: ");
 
         while(cont<10){
@@ -23,6 +24,6 @@ public class Ej7{
         
         System.out.println("Pares: "+ pares);
         System.out.println("impares: "+impares);
-
     }
+    
 }

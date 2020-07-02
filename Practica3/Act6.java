@@ -1,8 +1,7 @@
 /*Mostrar los primeros "n" números de Padovan.*/
-import java.util.Scanner; 
+import java.util.Scanner;
 public class Act6 {
     public static void main(String[] args) {
-
         Scanner sc =  new Scanner(System.in);
         int a = 1;
         int b = 1;
@@ -28,6 +27,7 @@ public class Act6 {
 
         System.out.println(a);
         System.out.println("\nEl resultado cuando P(" + n + ") es: " + a);
+   
     }
     
 }

@@ -1,8 +1,6 @@
 import java.util.Scanner; 
-
 public class Ej3 {
     public static void main(String[] args) {
-        
         Scanner sc = new Scanner(System.in);
         String calif;
         double suma = 0;

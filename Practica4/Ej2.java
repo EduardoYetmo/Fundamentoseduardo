@@ -1,5 +1,5 @@
+//Actividad 2: Encontrar el mayor de dos número dados por el usuario.
 import java.util.Scanner; 
-
 public class Ej2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -17,7 +17,7 @@ public class Ej2 {
             System.out.println("El mayor es:"+ y);
         }
 
-
+        
     }
     
 }

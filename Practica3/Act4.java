@@ -4,10 +4,9 @@ dado por el usuario, es o no primo. Un número es primo si es divisible únicame
 número entre 2, 3,...,n-1 y si en algún momento el residuo es igual a cero el número 
 no es primo, si se llega al final y en ningún caso el residuo dio 0 "n" es primo.*/
 
-import java.util.Scanner; 
+import java.util.Scanner;
 public class Act4 {
     public static void main(String[] args) {
-
         Scanner sc = new Scanner(System.in); 
         int numero;
         int contador = 0;
@@ -28,6 +27,6 @@ public class Act4 {
             System.out.println("El numero " + numero + " no es primo");
         }
         
+        
     }
-    
 }

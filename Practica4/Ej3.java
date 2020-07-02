@@ -1,7 +1,9 @@
-import java.util.Scanner; 
-public class Ej3{
+//Actividad 3: Modificar el programa anterior para que en caso 
+//de que sean iguales lo indique.
+import java.util.Scanner;
+public class Ej3 {
     public static void main(String[] args) {
-       int x;
+        int x;
        int y;
 
        Scanner sc = new Scanner(System.in);
@@ -16,8 +18,6 @@ public class Ej3{
             }else{
                 System.out.println("El mayor es: " + y);
             }
-
-       }
-       
+       }   
     }
 }

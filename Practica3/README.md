@@ -93,17 +93,18 @@ for(int i=1; i<=n; i++){
 ```
 
 - **Act6:** En este programa se aplico algo similar al anterior utilizando la misma estructura pero cumpliendo las caracteristicas que nos pedian aplicando aqui el numero de Padovan y por definición **P(0) = 1**, **P(1) = 1** y **P(2) = 1**.
+![Padovan](/assets/Padovan.png)
 ---
-#####Resultados
+##### Resultados
 
 Los resultados de la práctica se cumplio conforme a los enunciados utilizando las estructuras que se vieron en clase y convinando los conocimientos que se tenian en prácticas anteriores, incluso investigando el uso de cada uno de las estructuras para conocer más el conocimiento de ellas y saber como aplicarlas. 
 
 ---
-#####Discusión
+##### Discusión
 
 A pesar de realizar todas las actividades se necesita la práctica de estas estructuras para un mejor manejo de ellas, ya que al hacerlas existieron muchas dudas de como era el funcionamiento de cada una, apesar del la investigación.
 
 ---
-#####Conclusión
+##### Conclusión
 
 Esta práctica subio el nivel de las anteriores dificultando mas la realizacion de los programas esto ayuda a conocer más las herramientas que se tienen para resolver diversos problemas que nos propongan y encontrar una solución a dicha tarea.

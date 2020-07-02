@@ -1,3 +1,3 @@
-Proceso sin_titulo
+Proceso Ej1
 	Escribir 'Hola Mundo';
 FinProceso

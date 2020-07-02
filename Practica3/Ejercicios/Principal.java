@@ -1,6 +1,6 @@
 public class Principal {
     public static void main(String[] args) {
-        
+            
     //IF
     System.out.println("\n***** IF *****");
 
@@ -142,8 +142,6 @@ public class Principal {
         System.out.println(" iteración: " + i + ", x= " + x);
     }
     System.out.println("Esto es despues del For");
-
-
 
     }
 }

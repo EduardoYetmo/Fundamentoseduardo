@@ -1,8 +1,6 @@
 import java.util.Scanner; 
-
 public class Ej5 {
     public static void main(String[] args) {
-        
         Scanner sc = new Scanner(System.in);
         int numero;
         int contadorpares = 0;
@@ -20,6 +18,6 @@ public class Ej5 {
         }
         System.out.println("Fueron " + contadorimpares + " impares");
         System.out.println("Fueron " + contadorpares + " pares");
+        
     }
-
 }

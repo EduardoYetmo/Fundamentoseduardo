@@ -46,25 +46,22 @@ public class Calculadora{
                         r = division(a,b);
                         imprimeResultado(r);
                         break;
-                case 5: System.out.println("\nApagando la Calculadora...");
+                case 5: //Salir
+                        System.out.println("\nApagando la Calculadora...");
                         break;
                 default: System.out.println("---Opción no valida---\n");
                         break;
             }
-
-
-
         }while(op != 5);
     }
-
     public static void imprimeResultado(double resp){
-        System.out.print("\nEl resultado es:      " + resp + "\n");
+        System.out.print("\nEl resultado es: " + resp + "\n");
     }
 
     public static double solicitarOperador(){
         double x; 
         Scanner sc = new Scanner(System.in);
-        System.out.print("Operando =        ");
+        System.out.print("Operando = ");
         x = sc.nextDouble();
         return x;
     }
@@ -92,4 +89,5 @@ public class Calculadora{
         r = x/y;
         return r;
     }
+
 }
