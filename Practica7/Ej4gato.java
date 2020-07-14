@@ -1,74 +1,27 @@
-import java.util.Scanner; 
+import java.util.Scanner;
+
 public class Ej4gato{
-    
+
     static char tablero[][] = new char[3][3];
 
     public static void main(String[] args) {
 
         int tiro[] = new int[2];
-        String ganador = "nadie";
-        int n=0;
         
         iniciaTablero();
         dibujaTablero();
-        do{
+
         juegaUsuario(tiro);
         actualizaTablero(tiro,'X');
         juegaCPU(tiro);
         actualizaTablero(tiro,'O');
 
-        ganador = analiza();
+        analiza(tiro);
         dibujaTablero();
-        }while(!ganador.equals("nadie"));
     }
 
-    public static void actualizaTablero(int tiro[],char c){
-        tablero[tiro[0]][tiro[1]] = c;
-
-        return c;
-    }
-
-    public static void analiza(){
-        String ganador="nadie";
-            if (tablero[0][0]== "X" && tablero[0][1]== "X" && tablero[0][2]== "X") {
-            System.out.println("El ganador es el jugador 'x'.");
-            break;
-            }
-            if (tablero[1][0]== "X" && tablero[1][1]== "X" && tablero[1][2]== "X") {
-            System.out.println("El ganador es el jugador 'x'.");
-            break;
-            }
-            else if (tablero[2][0]== "X" && tablero[2][1]== "X" && tablero[2][2]== "X") {
-            System.out.println("El ganador es el jugador X.");
-            break;
-            }
-            if (tablero[0][0]== "X" && tablero[1][0]== "X" && tablero[2][0]== "X") {
-            System.out.println("El ganador es el jugador X.");
-            break;
-            }
-            if (tablero[0][1]== "X" && tablero[1][1]== "X" && tablero[2][1]== "X") {
-            System.out.println("El ganador es el jugador X.");
-            break;
-            }
-            if (tablero[0][2]== "X" && tablero[1][2]== "X" && tablero[2][2]== "X") {
-            System.out.println("El ganador es el jugador 'X'.");
-            break;
-            }
-            //diagonales faltan
-            if (tablero[0][0]== "X" && tablero[1][1]== "X" && tablero[2][2]== "X") {
-            System.out.println("El ganador es el jugador X.");
-            break;
-            }
-            if (tablero[0][2]== "X" && tablero[1][1]== "X" && tablero[2][0]== "X") {
-            System.out.println("El ganador es el jugador X.");
-            break;
-            }
-            //condiciones victoria
-            
-            if (n==9) {
-            break;
-            }
-        return ganador;
+    public static void analiza(int tiro[]){
+       
     }
 
     public static void juegaCPU(int tiro[]){
@@ -76,6 +29,10 @@ public class Ej4gato{
         tiro[0]=(int)(Math.random()*3)+0;
         tiro[1]=(int)(Math.random()*3)+0;
         //generar fila y columna aleatorias, localidades descupadas.
+    }
+
+    public static void actualizaTablero(int tiro[],char c){
+        tablero[tiro[0]][tiro[1]] = c;
     }
 
     public static void juegaUsuario(int tiro[]){
@@ -86,6 +43,7 @@ public class Ej4gato{
         tiro[0] = sc.nextInt();
         System.out.print("col: ");
         tiro[1] = sc.nextInt();
+        while(tablero[tiro[0][1] == "X"])
 
         sc.close();
     }
